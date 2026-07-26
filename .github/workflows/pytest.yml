@@ -28,4 +28,5 @@ jobs:
 
     - name: Run Tests
       run: |
-        pytest test/
+        # Using python -m automatically adds the current directory to sys.path
+        python -m pytest test/
