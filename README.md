@@ -1,6 +1,6 @@
-# Cleaner
+# PrepML
 
-Cleaner is a Streamlit-based data cleaning and analysis workspace designed to help users inspect, clean, scale, and prepare tabular datasets for machine learning. It combines data diagnostics, interactive cleaning tools, feature scaling guidance, target dependency analysis, and exportable code generation.
+PrepML is a Streamlit-based data cleaning and analysis workspace designed to help users inspect, clean, scale, and prepare tabular datasets for machine learning. It combines data diagnostics, interactive cleaning tools, feature scaling guidance, target dependency analysis, and exportable code generation.
 
 ## Key Features
 
@@ -15,7 +15,7 @@ Cleaner is a Streamlit-based data cleaning and analysis workspace designed to he
 
 ## Project Structure
 
-- `app.py` / `app2.py` / `frontend2.py`: Streamlit frontends for the data cleaning app
+- `app2.py`: Streamlit frontend for the data cleaning app
 - `engine/core2.py`: Core data cleaning engine, diagnostics, pruning, and target analysis
 - `engine/scaler2.py`: Scaling recommendation and scaling application logic
 - `engine/ml_templates.py`: Machine learning template generation and model param specifications
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 3. Launch the Streamlit app
 
 ```bash
-streamlit run app.py
+streamlit run app2.py
 ```
 
 ## Usage
