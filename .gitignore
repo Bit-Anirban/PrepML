@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache__/
+
+
+app.py
+frontend2.py
+
+
+Extra/
+
