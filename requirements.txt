@@ -5,9 +5,5 @@ scipy>=1.10,<2.0
 streamlit>=1.18,<2.0
 scikit-learn>=1.2,<2.0
 
-# Optional ML libraries referenced by generated training code templates
-xgboost>=1.8,<2.0
-lightgbm>=3.3,<4.0
-
 # Test and development dependencies
 pytest>=7.0,<9.0
