@@ -4,6 +4,7 @@ numpy
 scipy
 streamlit
 scikit-learn
+matplotlib
 
 # Test and development dependencies
 pytest
