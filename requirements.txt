@@ -1,9 +1,9 @@
 # Core runtime dependencies used by the Streamlit data cleaning app
-pandas>=1.5,<2.0
-numpy>=1.24,<2.0
-scipy>=1.10,<2.0
-streamlit>=1.18,<2.0
-scikit-learn>=1.2,<2.0
+pandas
+numpy
+scipy
+streamlit
+scikit-learn
 
 # Test and development dependencies
-pytest>=7.0,<9.0
+pytest
